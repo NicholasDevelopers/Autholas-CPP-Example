@@ -2,7 +2,7 @@
 
 // API configuration - CHANGE THESE VALUES
 const std::string API_KEY = "YOUR_API_KEY_HERE";
-const std::string API_URL = "https://autholas.nicholasdevs.my.id/api/auth";
+const std::string API_URL = "https://autholas.web.id/api/auth";
 
 // Callback function to write response data
 static size_t WriteCallbackFunc(void* contents, size_t size, size_t nmemb, WriteCallback* userp) {
@@ -254,3 +254,4 @@ bool authenticateUser(const std::string& username,
     }
 
 }
+
